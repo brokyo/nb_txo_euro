@@ -9,7 +9,7 @@ local function add_euro_voice_params(idx)
 
     params:add_number(
         "cv_slew_" .. idx,
-        "Slew Time (ms) ",
+        "Slew Time",
         0,
         1000,
         12,
